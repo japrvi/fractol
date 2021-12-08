@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   arguments_reader.c                                 :+:      :+:    :+:   */
+/*   input_processing.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jpozuelo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/29 15:33:36 by jpozuelo          #+#    #+#             */
-/*   Updated: 2021/12/01 14:21:03 by jpozuelo         ###   ########.fr       */
+/*   Created: 2021/12/08 13:16:16 by jpozuelo          #+#    #+#             */
+/*   Updated: 2021/12/08 13:19:02 by jpozuelo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,4 @@ char	check_arguments(int argc, char **argv)
 	perror("Avalaible fractasls: (M) Mandelbrot, (J) Julia, (N) Newtown");
 	return (0);
 }
+
